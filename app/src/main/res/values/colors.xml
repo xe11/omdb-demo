@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_accent">#FF8D7CF8</color>
+    <color name="purple_light">#BBADFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#717171</color>
+
+    <color name="background_primary">@color/white</color>
+    <color name="background_accent">@color/purple_light</color>
+    <color name="text_primary">@color/black</color>
+    <color name="text_secondary">@color/gray</color>
+</resources>

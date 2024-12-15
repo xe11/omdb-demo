@@ -1,0 +1,49 @@
+[versions]
+agp = "8.7.2"
+kotlin = "2.0.0"
+coreKtx = "1.15.0"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.8.0"
+composeBom = "2024.04.01"
+appcompat = "1.7.0"
+recyclerview = "1.3.0"
+material = "1.12.0"
+constraintlayout = "2.1.4"
+lifecycleViewmodelKtx = "2.8.7"
+navigationFragmentKtx = "2.6.0"
+okHttp = "4.12.0"
+retrofit = "2.11.0"
+dagger = "2.53.1"
+kotlinSerialization = "1.7.3"
+jetpackPaging = "3.3.5"
+coilImageLoader = "3.0.4"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+
+network-okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okHttp" }
+network-okhttpLogger = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okHttp" }
+network-retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+network-retrofitKotlinSerialization = { group = "com.squareup.retrofit2", name = "converter-kotlinx-serialization", version.ref = "retrofit" }
+data-kotlinSerialization = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinSerialization" }
+dagger-dagger = { group = "com.google.dagger", name = "dagger", version.ref = "dagger" }
+dagger-compiler = { group = "com.google.dagger", name = "dagger-compiler", version.ref = "dagger" }
+ui-paging = { group = "androidx.paging", name = "paging-runtime", version.ref = "jetpackPaging" }
+ui-coilImageLoader = { group = "io.coil-kt.coil3", name = "coil", version.ref = "coilImageLoader" }
+ui-coilImageLoaderOkhttp = { group = "io.coil-kt.coil3", name = "coil-network-okhttp", version.ref = "coilImageLoader" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kapt = { id = "kotlin-kapt" }
+data-kotlinSerialization = { id = "plugin.serialization", version.ref = "kotlin" }

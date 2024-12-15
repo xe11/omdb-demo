@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rvrside</string>
+    <string name="title_movie_plot_hint">Summary</string>
+    <string name="retry">Retry</string>
+    <string name="search_input_hint">Search..</string>
+    <string name="movie_poster_content_description">Movie poster image</string>
+    <string name="unknown_error">Oops! Something went wrong..</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non neque mi. Etiam venenatis metus in mi luctus, vel sodales lorem elementum. Donec tincidunt purus non diam efficitur, eget dapibus nulla placerat.</string>
+</resources>
